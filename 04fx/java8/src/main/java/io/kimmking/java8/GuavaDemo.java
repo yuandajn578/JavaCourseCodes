@@ -46,7 +46,8 @@ public class GuavaDemo {
         // EventBus
         // SPI+service loader
         // Callback/Listener
-        // 
+        // Spring IoC
+        
         Student student2 = new Student(2, "KK02");
         System.out.println(Thread.currentThread().getName()+" I want " + student2 + " run now.");
         bus.post(new AEvent(student2));
